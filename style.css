@@ -1,0 +1,46 @@
+body, html{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #0CE6FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{
+    background-color: #dadfea;
+    width: 80%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.list-row{
+    width: 95%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items{
+    padding: 15px;
+}
+
+.item-row{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash, .handle{
+    padding: 5px;
+}
+
+
+
+
+
