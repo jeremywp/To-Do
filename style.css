@@ -4,6 +4,15 @@ body, html{
     background-color: #0CE6FF;
 }
 
+h1{
+    font-family: 'Pacifico', cursive;
+    margin: 20px;
+}
+
+.mylistinput{
+    margin-left: 20px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -26,18 +35,32 @@ body, html{
 }
 
 .list-items{
-    padding: 15px;
+    padding: 10px;
 }
 
-.item-row{
+.item-add-row{
     margin: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.item-row{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+}
+
 .trash, .handle{
     padding: 5px;
+}
+
+.clear-completed-items{
+    margin: 5px;
 }
 
 
